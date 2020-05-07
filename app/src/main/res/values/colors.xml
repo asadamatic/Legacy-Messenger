@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/green</color>
+    <color name="colorPrimaryDark">@color/lightgreen</color>
+    <color name="colorAccent">#c32DAFBE</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparentwhite">#80ffffff</color>
+    <color name="skyblue">#c32DAFBE</color>
+
+    <color name="lightgreen">#c308C65B</color>
+    <color name="green">#08C65B</color>
+    <color name="darkgray">#4B4B4B</color>
+
+    <color name="lighgray">#707070</color>
+
+
+</resources>

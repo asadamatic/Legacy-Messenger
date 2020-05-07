@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "146517119252",
+    "firebase_url": "https://legacymessenger-6c5ac.firebaseio.com",
+    "project_id": "legacymessenger-6c5ac",
+    "storage_bucket": "legacymessenger-6c5ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146517119252:android:9a0e9cd42c5d6d86f07201",
+        "android_client_info": {
+          "package_name": "com.example.legacymessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146517119252-nt60i1m3h11eq0t9bn96c8aju3obn2gb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.legacymessenger",
+            "certificate_hash": "05da7dd9e0d7a6fc41d65c7e65064fd9b94e12f0"
+          }
+        },
+        {
+          "client_id": "146517119252-dkt0dniithfmktjiki06tj0kut8qbsuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHlJXT4DfBe9OZ7jOtOL4MLRE_w8A6bKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146517119252-dkt0dniithfmktjiki06tj0kut8qbsuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

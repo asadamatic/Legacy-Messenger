@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/verification_activity"
+    tools:context=".VerificationActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="392dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="14dp"
+        android:background="@color/white"
+        app:cardCornerRadius="55dp"
+        android:elevation="3dp"
+        >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/verificationCode"
+                android:layout_width="match_parent"
+                android:layout_height="53.8dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:hint="Code Here"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                style="@style/AppEditTextStyle"
+                android:maxLength="6"
+                android:inputType="number"
+                android:maxLines="1"
+                android:imeOptions="actionDone"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                />
+            
+            <TextView
+                android:id="@+id/expireMessage"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@id/login"
+                android:layout_marginBottom="29dp"
+                android:layout_below="@+id/verificationCode"
+                android:layout_marginTop="28dp"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@color/darkgray"
+
+                />
+
+
+
+            <Button
+                android:id="@+id/login"
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="53.8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@id/resendCode"
+                android:layout_marginBottom="56.4dp"
+                android:textAllCaps="false"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                />
+
+            <Button
+                android:id="@+id/resendCode"
+                android:text="Resend Code"
+                android:layout_width="match_parent"
+                android:layout_height="53.8dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="17dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="55dp"
+                android:textAllCaps="false"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:enabled="false"
+                />
+            
+        </RelativeLayout>
+        
+        
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
